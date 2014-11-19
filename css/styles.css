@@ -195,6 +195,17 @@ img.grayscale {
   margin: 10px;
 }
 
+.btn-block {
+  background-color: #6E28C9;
+  border-color: #6E28C9;
+}
+
+.btn-block:hover {
+  background-color: #111111;
+  border-color: #111111
+}
+
+
 footer {
   padding: 100px 0;
 }
