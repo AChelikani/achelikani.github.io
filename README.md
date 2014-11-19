@@ -1,3 +1,3 @@
 achelikani.github.io
 ====================
-My personal website
+Check out my personal website with all my projects!
