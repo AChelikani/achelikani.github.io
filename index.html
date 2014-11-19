@@ -81,19 +81,25 @@
       <div class="col-md-12 text-center">
         <h1>Contact Me</h1>
 
-          <div class="form-group">
-            <span class="col-md-1 col-md-offset-2 text-center"></span>
-              <div class="col-md-8">
-                <input id="name" name="name" type="text" placeholder="Name" class="form-control">
-              </div>
-          </div>
+          <form class="form-horizontal">
 
-          <div class="form-group">
-            <span class="col-md-1 col-md-offset-2 text-center"></span>
-             <div class="col-md-8">
-              <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-             </div>
-          </div>
+            <div class="form-group">
+              <input type="name" class="form-control" id="name" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="button" class="btn btn-primary btn-lg btn-block">Submit!</button>
+            </div>
+
+          </form>
 
       </div>
     </div>
