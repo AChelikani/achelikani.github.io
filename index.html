@@ -43,11 +43,12 @@
 <!-- title -->
 <div class="header alt vert">
   <div class="container">
-    
     <h1>Advith Chelikani</h1>
-      <p class="lead">Full-stack Developer</p>
+    <p class="lead">Full-stack Developer</p>
+    <span class="element"></span>
   </div>
 </div>
+
 
 <hr>
 
@@ -74,6 +75,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- section 2: Projects -->
 <div class="featurette" id="sec2">
@@ -152,10 +154,18 @@
     </div>
   </div>
 </footer>
-
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
+      <!-- script references -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/typed.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $(".element").typed({
+          strings: ["First sentence.", "Second sentence."],
+          typeSpeed: 10,
+        });
+       });
+    </script>
 	</body>
 </html>
