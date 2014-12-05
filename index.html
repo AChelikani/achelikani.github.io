@@ -154,15 +154,20 @@
   </div>
 </footer>
       <!-- script references -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/typed.js"></script>
     <script type="text/javascript">
       $(function(){
         $(".element").typed({
-          strings: ["Front-end developer", "Back-end developer", "Full-stack developer"],
-          typeSpeed: 10,
+          strings: ["I <strong>design</strong> beautiful things.", 
+                    "I <strong>hack</strong> on things.",
+                    "I <strong>am</strong> a full-stack developer."],
+          contentType: "html",
+          typeSpeed: 40,
+          startDelay: 500,
+          loop: true
         });
        });
     </script>
