@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Advith's Portfolio</title>
+		<title>Advith Chelikani | Full-stack Developer</title>
 
     <!-- setting up bootstrap resources -->
 		<meta name="generator" content="Bootply" />
@@ -57,11 +57,11 @@
     <div class="row">
       <div class="col-md-7">
         <h1>About Me</h1>
-        <p class="lead">Hey, I'm Advith! I'm a freshman computer science at the California Institute of Technology in Pasadena,CA.
+        <p>Hey, I'm Advith! I'm a freshman computer science at the California Institute of Technology in Pasadena,CA.
         </p>
-        <p class="lead">I love doing both front-end and back-end work. Having recently discovered hackathons, I will be adding many new projects to this site in the future.
+        <p>I love doing both front-end and back-end work. Having recently discovered hackathons, I will be adding many new projects to this site in the future.
         </p>
-        <p class="lead">I'm looking for an internship this summer. See my skills and resume here. 
+        <p>I'm looking for an internship this summer. See my skills and resume here. 
         </p>
         <h4>Languages: <font color="#6E28C9"><b>Python, Java, JavaScript, HTML/CSS, and Swift.</b></font></h4>
         <h4>Skills: <font color="#6E28C9"><b>iOS Development, Prototyping with Sketch 3, Website Design (with Bootstrap).</b></font></h4>
@@ -76,28 +76,64 @@
 </div>
 
 
-<!-- section 2: Projects -->
 <div class="featurette" id="sec2">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h1>Projects</h1>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+<div class="item active">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="images/iphone_Spontaneity.png" alt="Spontaneityp">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption">
+        <h2><font color="#6E28C9">Spontaneity</font></h2>
+        <p><font color="#ffffff">Have you ever wanted to plan a spontaneous meet-up with a group of your friends, be it a Chipotle run for dinner or a pick-up soccer game? Spontaneity allows you to push quickly created events to your friends in order to plan for a spontaneous meet up. Users simply create an account with our service, add users to different friend groups, and create events that they wish to happen within the day or add themselves to events that have been created by other people in their friend group. </p>
 
-          <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="http://challengepost.com/software/spontaneity-np744" target="_blank">
-                    <img class="img-responsive" src="images/Spontaneity.png" alt="Spontaneity (iOS App)">
-                </a>
-                <h3>
-                  <font color="#6E28C9">Spontaneity</font>
-                </h3>
-                <p>Spontaneity is an iOS app that lets you plan spontaneous meet-ups with your friends.
-                </p>
-            </div>
-          </div>
-      </div>
+        <p> Have an immediate urge to invite all your friends over to your dorm to watch a movie? Spontaneity can help you!</font></p>
+        <button type="button" class="btn btn-primary btn-block">Check it Out!</button>    
     </div>
   </div>
+</div>
+<div class="item">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="images/blank.png" alt="...">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption">
+        <h2><font color="#6E28C9">pQuery</font></h2>
+        <p><font color="#ffffff"> </font></p>
+        <button type="button" class="btn btn-primary btn-block">Check it Out!</button>    
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="holder col-sm-8">
+    <img class="img-responsive" src="images/blank.png" alt="...">
+  </div>
+  <div class="col-sm-4">
+    <div class="carousel-caption">
+        <h2><font color="#6E28C9">SpeedTap</font></h2>
+        <p><font color="#ffffff"></font></p>
+        <button type="button" class="btn btn-primary btn-block">Check it Out!</button>    
+    </div>
+  </div>
+</div>
+</div>
+<div class="controllers col-sm-8 col-xs-12">
+<!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol> 
+</div>
+</div>
 </div>
 
 <!-- section 3: Contact Me -->
@@ -132,6 +168,7 @@
   </div>
 </div>
 
+
 <hr>
 
 <!-- footer with social media/my sites links -->
@@ -161,7 +198,7 @@
     <script type="text/javascript">
       $(function(){
         $(".element").typed({
-          strings: ["I <strong>design</strong> beautiful things.", 
+          strings: ["I <strong>design</strong> beautiful experiences.", 
                     "I <strong>hack</strong> on things.",
                     "I <strong>am</strong> a full-stack developer."],
           contentType: "html",
@@ -170,6 +207,12 @@
           loop: true
         });
        });
+
+      $(window).bind("load resize slid.bs.carousel", function() {
+  var imageHeight = $(".active .holder").height();
+  $(".controllers").height( imageHeight );
+  console.log("Slid");
+});
     </script>
 	</body>
 </html>

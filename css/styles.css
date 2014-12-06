@@ -1,12 +1,13 @@
 /* -- custom css for Bootstrap 3.x --*/
 
 @import url(http://fonts.googleapis.com/css?family=Voltaire);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family:Arial,sans-serif;
+  font-family:"Titillium Web",sans-serif;
 }
 
 /* fix bs3 horizontal scrollbar bug */
@@ -18,6 +19,9 @@ h1,h2,h3,h4,.lead,.btn,.navbar a {
   text-transform:uppercase;
   font-family:'Voltaire',Arial,sans-serif;
   letter-spacing:2px;
+}
+.element {
+  font-family:'Voltaire',Arial,sans-serif;
 }
 
 h1 {
@@ -132,6 +136,7 @@ img.grayscale {
 .blurb {
   padding: 120px 0;
   background-color:#fefefe;
+
 }
 
 .blurb .panel {
