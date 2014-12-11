@@ -2,8 +2,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Voltaire);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
-
-
+/* #AAAA39 */
+/* #3939aa */
 html,
 body {
   height: 100%;
@@ -90,7 +90,7 @@ img.grayscale {
 }
 
 .navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:#d46054;
+  background-color:#AAAA39;
 }
 
     
@@ -105,31 +105,31 @@ img.grayscale {
 }
 
 .header .lead {
-  color:#d46054;
+  color:#3939AA;
   font-size:25px;
 }
 
 .header {
   height: 80%;
-  background: #f68076 url('http://www.bootply.com/assets/example/pt_topo_l.png') repeat center center fixed;
+  background: #3939AA url('http://www.bootply.com/assets/example/pt_topo_l.png') repeat center center fixed;
 }
 
 /* use alt in navbar and header for different color */
 
 .alt {
-  background-color: #6E28C9;
+  background-color: #AAAA39;
 }
 
 .alt .lead {
-  color: #3B0496;
+  color: #3939AA;
 }
 
 .alt.affix {
-  background-color:#4C06AB;
+  background-color:#3939AA;
 }
 
 .alt li a:hover, .alt li.active {
-  background-color:#5D17BA;
+  background-color:#3939AA;
 }
 
 
@@ -150,29 +150,9 @@ img.grayscale {
 }
 
 .featurette {
-  background: #222334;
+  background: #eeeed7;
   padding: 50px 0;
-  color: #ffffff;
-}
-
-.featurette-item {
-  margin-bottom: 15px;
-}
-
-.featurette-item > i {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
-
-.featurette-item > i:hover {
-  font-size: 68px;
+  color: #3939AA;
 }
 
 .callout {
@@ -201,13 +181,13 @@ img.grayscale {
 }
 
 .btn-block {
-  background-color: #6E28C9;
-  border-color: #6E28C9;
+  background-color: #3939aa;
+  border-color: #3939aa;
 }
 
 .btn-block:hover {
-  background-color: #4C06AB;
-  border-color: #4C06AB
+  background-color: #6060BB;
+  border-color: #6060BB
 }
 
 .carousel-caption {
