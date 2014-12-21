@@ -76,7 +76,7 @@ img.grayscale {
 }
 
 .navbar a {
-  color:#fff;
+  color:#ffffff;
   font-size:14px;
 }
 
@@ -90,7 +90,7 @@ img.grayscale {
 }
 
 .navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:#AAAA39;
+  background-color:#3939AA;
 }
 
     
@@ -117,7 +117,7 @@ img.grayscale {
 /* use alt in navbar and header for different color */
 
 .alt {
-  background-color: #AAAA39;
+  background-color: #AAAAAA;
 }
 
 .alt .lead {
@@ -150,7 +150,7 @@ img.grayscale {
 }
 
 .featurette {
-  background: #eeeed7;
+  background: #AAAAAA;
   padding: 50px 0;
   color: #3939AA;
 }
