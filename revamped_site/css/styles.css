@@ -182,7 +182,7 @@ Headings
 
 .hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
-.testimonials h1 { color: #fff; font-size: 43px; font-weight: 100; margin: 20px 0 80px 0; font-style: italic; }
+.testimonials h1 { color: #fff; font-size: 43px; font-weight: 100; margin: 0px 0 200px 0; font-style: italic; }
 .features h1 { color: #9197a8; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .design h1 { color: #abbcc3; font-size: 43px; font-weight: 300; margin-top: 0; text-align: center; }
 .cd-container h1 {color: #9197a8; text-align: center;}
@@ -208,7 +208,8 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .download-now p { color: #fff; font-size: 16px; margin: 40px 30px 40px 0; line-height: 30px; }
 .download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 185px; }
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
-.testimonials { background: #5b6869 url('../img/skills.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
+.testimonials { background: #5b6869 url('../img/skills.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 43px 0; }
+.testimonials p {color: #ffffff; margin: 0px 0 200px 0;}
 .features { background: #fff url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; }
 .features p { color: #7a8387; font-size: 16px; word-spacing: 2px; line-height: 30px; }
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
@@ -240,6 +241,8 @@ footer p { color: #fff; line-height: 30px; }
 .footer-credit { font-size: 12px; text-transform: uppercase; letter-spacing: 4px; }
 .element { font-size: 24px; } /* Typed text in header */
 .socialmedia {color: #ffffff;} /* Media links in footer */
+.contact { background: #000000 no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
+.language{ height: 50px; width: 50px; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
 /* ==========================================================================
