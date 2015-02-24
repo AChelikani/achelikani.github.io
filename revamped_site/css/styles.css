@@ -243,8 +243,9 @@ footer p { color: #fff; line-height: 30px; }
 .socialmedia {color: #ffffff;} /* Media links in footer */
 .contact { background: #000000 no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
 .skill { color: white; margin-left: 15px; font-size: 20px; font-weight: bolder; font-family: "ruda", 'Open Sans', sans-serif; vertical-align: middle; position: absolute; margin-top: 5px; }
-.bar { width: 100%; border-radius: 3px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; }
-.barfill { border-radius: 3px; height: 100%; background-color: #C281F7; text-align: left; }
+.bar-right { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: right;}
+.bar-left { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: left;}
+.barfill { border-radius: 5px; height: 100%; background-color: #000000; text-align: left; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
 /* ==========================================================================
