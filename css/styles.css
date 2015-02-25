@@ -221,10 +221,6 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .colourway { height: 346px; }
-.colour1 { background-color: #f69679; }
-.colour2 { background-color: #e8b968; }
-.colour3 { background-color: #7accc8; }
-.colour4 { background-color: #373b44; }
 .title { font-size: 15px; color: #9197a8; text-transform: uppercase; font-weight: 600; letter-spacing: 2px; padding: 20px 40px 0; }
 .feature-text { padding: 0px 20px 40px 40px; font-style: italic; color: #7a8387; font-size: 16px; }
 .design-content p { color: #abbcc3; line-height: 30px; font-weight: 300; }
@@ -248,6 +244,7 @@ footer p { color: #fff; line-height: 30px; }
 .barfill { border-radius: 5px; height: 100%; background-color: #000000; text-align: left; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
+.contact { background: #000000;}
 /* ==========================================================================
 Animations
 ========================================================================== */
