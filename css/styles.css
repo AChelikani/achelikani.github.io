@@ -215,6 +215,8 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
 .features-rightcol { padding-left: 60px; }
 .margin-bottom { margin-bottom: 70px; }
+.btn-default { background-color: #E8B968; border-color: #E8B968; color: #690C94; }
+.btn-default:hover {background-color: #5DB3AF; border-color: #5DB3AF; }
 .try-btn { background-color: #f69679; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #e37857; color: #fff; text-decoration: none; }
 .design { padding: 50px 0; background-color: #f6f6f4; position: relative; }
