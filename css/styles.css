@@ -186,6 +186,12 @@ Headings
 .features h1 { color: #9197a8; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .design h1 { color: #abbcc3; font-size: 43px; font-weight: 300; margin-top: 0; text-align: center; }
 .cd-container h1 {color: #9197a8; text-align: center;}
+.contact h1 {color: #000000; font-size: 43px; font-weight: 100; text-align: center; margin-top: 0px;}
+.contact h2 {color: #000000; text-align: center; }
+
+hr {
+	border-width: 5px;
+}
 /* ==========================================================================
 Custom Styles
 ========================================================================== */
@@ -239,14 +245,31 @@ footer p { color: #fff; line-height: 30px; }
 .footer-credit { font-size: 12px; text-transform: uppercase; letter-spacing: 4px; }
 .element { font-size: 24px; } /* Typed text in header */
 .socialmedia {color: #ffffff;} /* Media links in footer */
-.contact { background: #000000 no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
+.contact { background: #ffffff; padding-top: 25px; padding-bottom: 25px; }
 .skill { color: white; margin-left: 15px; font-size: 20px; font-weight: bolder; font-family: "ruda", 'Open Sans', sans-serif; vertical-align: middle; position: absolute; margin-top: 5px; }
 .bar-right { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: right;}
 .bar-left { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: left;}
 .barfill { border-radius: 5px; height: 100%; background-color: #000000; text-align: left; }
+#consolebar { height: 20px; width: 700px; background-color: #B3B3B3; margin-left: 21em; text-align: center; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
-.contact { background: #000000;}
+ div.console3 { font-size: 14px; margin-left: 21em;  word-wrap: break-word; }
+      div.console3 div.jquery-console-inner
+       { width: 700px; height:350px; background:#000000; color: #ffffff; font-size: 12px; padding:0.5em;
+         overflow:auto }
+      div.console3 div.jquery-console-prompt-box
+       { color:#ffffff; font-family:monospace; }
+      div.console3 div.jquery-console-focus span.jquery-console-cursor
+       { background:#ffffff; color:#eee; font-weight:bold }
+      div.console3 div.jquery-console-message-error
+       { color:#ef0505; font-family:sans-serif; font-weight:bold;
+         padding:0.1em; }
+      div.console3 div.jquery-console-message-success
+       { color:#187718; font-family:monospace;
+         padding:0.1em; }
+      div.console3 span.jquery-console-prompt-label {
+      	font-size: 14px;
+        font-weight:bold; }
 /* ==========================================================================
 Animations
 ========================================================================== */

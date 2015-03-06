@@ -303,10 +303,17 @@
     </div> <!-- cd-timeline-block -->
   </section> <!-- cd-timeline -->
 
-  <!--
+  <hr>
+
     <section class="contact" id="contact">
+      <h1> Contact Me </h1>
+      <h2> Type 'email' and hit the [enter] key! </h2>
+      <div id="contactconsole">
+        <div id="consolebar">
+          achelikani -- bash -- 80 x 24
+        </div>
+      </div>
     </section>
-  -->
 
     <section id="footer">
       <footer>
@@ -335,7 +342,42 @@
       <script src="js/waypoints.min.js"></script>
       <script src="js/main.js"></script>
       <script src="js/typed.js"></script>
+      <script src="js/jquery.console.js"></script>
       <script type="text/javascript">
+      $(document).ready(function() {
+        var console3CancelFlag = false;
+         var console3 = $('<div class="console3">');
+         $('#contactconsole').append(console3);
+         var controller3 = console3.console({
+           promptLabel: 'AChelikani@-bash~$ ',
+           commandValidate:function(line){
+             if (line == "") return false;
+             else return true;
+           },
+           commandHandle:function(line,report){
+               setTimeout(function() {
+       if(!console3CancelFlag)
+           if (line == "email") {
+              var link = "mailto:advith.chelikani@gmail.com";
+              window.location.href = link;
+           }
+           else {
+              report("Invalid command");
+           }
+       else {
+           report([{msg:"User interrupt",
+        className:"jquery-console-message-error"}]);
+           console3CancelFlag = false;
+       }
+         },100);
+           },
+           cancelHandle:function() {
+         console3CancelFlag = true;
+     },
+           animateScroll:true,
+           promptHistory:true
+         });
+      });
       $(function(){
         $(".element").typed({
           strings: ["I <strong>design</strong> beautiful experiences.", 
