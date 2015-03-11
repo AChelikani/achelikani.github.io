@@ -311,7 +311,15 @@
       <div id="contactconsole">
         <div id="consolebar">
           achelikani -- bash -- 80 x 24
+        <div id="redcircle">
+          <div id="orangecircle">
+            <div id="greencircle">
+            </div>
+          </div>
         </div>
+
+        </div>
+
       </div>
     </section>
 
@@ -345,10 +353,10 @@
       <script src="js/jquery.console.js"></script>
       <script type="text/javascript">
       $(document).ready(function() {
-        var console3CancelFlag = false;
-         var console3 = $('<div class="console3">');
-         $('#contactconsole').append(console3);
-         var controller3 = console3.console({
+        var valid = false;
+         var console = $('<div class="console">');
+         $('#contactconsole').append(console);
+         var controller = console.console({
            promptLabel: 'AChelikani@-bash~$ ',
            commandValidate:function(line){
              if (line == "") return false;
@@ -356,7 +364,7 @@
            },
            commandHandle:function(line,report){
                setTimeout(function() {
-       if(!console3CancelFlag)
+       if(!valid)
            if (line == "email") {
               var link = "mailto:advith.chelikani@gmail.com";
               window.location.href = link;
@@ -367,12 +375,12 @@
        else {
            report([{msg:"User interrupt",
         className:"jquery-console-message-error"}]);
-           console3CancelFlag = false;
+           valid = false;
        }
          },100);
            },
            cancelHandle:function() {
-         console3CancelFlag = true;
+         valid = true;
      },
            animateScroll:true,
            promptHistory:true

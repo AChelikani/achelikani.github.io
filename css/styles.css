@@ -251,23 +251,26 @@ footer p { color: #fff; line-height: 30px; }
 .bar-left { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: left;}
 .barfill { border-radius: 5px; height: 100%; background-color: #000000; text-align: left; }
 #consolebar { height: 20px; width: 700px; background-color: #B3B3B3; margin-left: 21em; text-align: center; }
+#redcircle { background-color: #FF004C; position: relative; left: 6px; bottom: 17px; width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
+#orangecircle { background-color: #FFC400; position: relative; left: 20px; width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
+#greencircle { background-color: #00FF1E; position: relative; left: 20px;  width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
- div.console3 { font-size: 14px; margin-left: 21em;  word-wrap: break-word; }
-      div.console3 div.jquery-console-inner
+ div.console { font-size: 14px; margin-left: 21em;  word-wrap: break-word; }
+      div.console div.jquery-console-inner
        { width: 700px; height:350px; background:#000000; color: #ffffff; font-size: 12px; padding:0.5em;
          overflow:auto }
-      div.console3 div.jquery-console-prompt-box
+      div.console div.jquery-console-prompt-box
        { color:#ffffff; font-family:monospace; }
-      div.console3 div.jquery-console-focus span.jquery-console-cursor
+      div.console div.jquery-console-focus span.jquery-console-cursor
        { background:#ffffff; color:#eee; font-weight:bold }
-      div.console3 div.jquery-console-message-error
+      div.console div.jquery-console-message-error
        { color:#ef0505; font-family:sans-serif; font-weight:bold;
          padding:0.1em; }
-      div.console3 div.jquery-console-message-success
+      div.console div.jquery-console-message-success
        { color:#187718; font-family:monospace;
          padding:0.1em; }
-      div.console3 span.jquery-console-prompt-label {
+      div.console span.jquery-console-prompt-label {
       	font-size: 14px;
         font-weight:bold; }
 /* ==========================================================================
