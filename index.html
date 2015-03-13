@@ -31,7 +31,7 @@
                   <li><a href="#aboutme">About Me<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                   <li><a href="#projects">Projects<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                   <li><a href="#skills">Skills<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                  <li><a href="#cd-timeline">Timeline<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#timeline">Timeline<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                   <li class="nav-last"><a href="#footer">Contact Me<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                 </ul>
               </nav>
@@ -69,12 +69,13 @@
               </p>
               <p> I am also looking for an internship. Check out my resume below!
               </p>
-              <a href="resume.html" class="download-btn">Resume</a>
+              <a href="resume.html" target="_blank" class="download-btn">Resume</a>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- language, api, framework, tool -->
       <section class="design" id="projects">
         <div class="container">
           <h1> Projects </h1>
@@ -89,6 +90,13 @@
                     <div class="col-md-7 design-content">
                       <h2> Spontaneity </h2>
                       <p> With a simplistic yet aesthetic user interface, this app aims to streamline the process of organizing spontaneous meet-ups with different groups of friends.</p>
+                      <div class="tskills">
+                        <span class="language">Swift</span>
+                        <span class="framework">Facebook API</span>
+                        <span class="framework">Parse</span>
+                        <span class="tool">Xcode</span>
+                        <span class="tool">Sketch 3</span>
+                      </div>
                       <a href="http://challengepost.com/software/spontaneity-np744" target="_blank" type="button" class="btn btn-primary btn-default btn-block">Check it out!</a>
                     </div>
                   </li>
@@ -100,6 +108,12 @@
                       <h2> SimplyPaper </h2>
                       <p> SimplyPaper transforms an image of a website layout into real HTML/CSS. Creating a website template is
                       as simple as creating a layout in an image editor and uploading to our webiste!</p>
+                      <div class="tskills">
+                        <span class="language">Python</span>
+                        <span class="language">HTML/CSS</span>
+                        <span class="framework">OpenCV</span>
+                        <span class="framework">Bootstrap</span>
+                      </div>
                       <a href="http://challengepost.com/software/simplypaper" target="_blank" type="button" class="btn btn-primary btn-default btn-block">Check it out!</a>
                     </div>
                   </li>
@@ -110,6 +124,11 @@
                     <div class="col-md-7 design-content">
                       <h2> Save the Street</h2>
                       <p> Save the Street is a first-person virtual reality game for the Google Cardboard. You must save the street from the invading robots while being immersed in post-apocalyptic scenery. </p>
+                      <div class="tskills">
+                        <span class="language">C#</span>
+                        <span class="framework">Cardboard SDK</span>
+                        <span class="tool">Unity 3D</span>
+                      </div>
                        <a href="https://github.com/AChelikani/Save-the-Street" target="_blank" type="button" class="btn btn-primary btn-default btn-block">Check it out!</a>
                     </div>
                   </li>
@@ -234,8 +253,11 @@
         </div>
       </section>
 
+    <section class="timeline" id="timeline">
+    <h1> Events </h1>
+    </section>
+
     <section class="cd-container" id="cd-timeline">
-    
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-picture">
         <img src="img/cd-icon-game.svg" alt="Picture">
@@ -271,6 +293,10 @@
         <h2>Web Development Intern</h2>
         <h3>qARTA Bio</h3>
         <p>I created a web application that managed translation workflow.</p>
+        <div class="tskills">
+          <span class="language">PHP</span>
+          <span class="tool">Drupal</span>
+        </div>
         <span class="cd-date">Dec. 2014 - Jan. 2015</span>
       </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -297,7 +323,14 @@
         <h2>Software Engineering Intern</h2>
         <h3>CityScan</h3>
         <h4>Chicago, Illinois</h4>
-        <p>I worked on front-end work.</p>
+        <p>I embedded map data into company webpage and wrote back-end scripts for data formatting.</p>
+        <div class="tskills">
+          <span class="language">JavaScript</span>
+          <span class="language">HTML/CSS</span>
+          <span class="language">Python</span>
+          <span class="framework">Accela API</span>
+          <span class="framework">OrbitGIS</span>
+        </div>
         <span class="cd-date">Jun. - Aug. 2014</span>
       </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -305,6 +338,8 @@
 
   <hr>
 
+
+   <!-- Contact Me Section -->
     <section class="contact" id="contact">
       <h1> Contact Me </h1>
       <h2> Type 'email' and hit the [enter] key! </h2>
@@ -382,6 +417,7 @@
            cancelHandle:function() {
          valid = true;
      },
+           autofocus:true,
            animateScroll:true,
            promptHistory:true
          });

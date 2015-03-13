@@ -188,13 +188,13 @@ Headings
 .cd-container h1 {color: #9197a8; text-align: center;}
 .contact h1 {color: #000000; font-size: 43px; font-weight: 100; text-align: center; margin-top: 0px;}
 .contact h2 {color: #000000; text-align: center; }
+.timeline h1 {color: #000000; font-size: 43px; font-weight: 300; text-align: center; }
 
 hr {
 	border-width: 5px;
 }
-/* ==========================================================================
-Custom Styles
-========================================================================== */
+
+/* My styles */
 p { font-weight: 300; }
 .navigation { background-color: #1F1F1F; }
 .nav-last { margin-bottom: 50px; }
@@ -273,6 +273,24 @@ footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
       div.console span.jquery-console-prompt-label {
       	font-size: 14px;
         font-weight:bold; }
+
+.tskills > span {
+  margin: 0 10px 10px 0;
+  padding: 6px 12px;
+  display: inline-block;
+  border: 1px solid #444;
+  border-radius: 4px;
+  font-size: 12px;
+}
+span.language {
+	border-color: #BF3900;
+}
+span.framework {
+	border-color: #0027C2;
+}
+span.tool {
+	border-color: #0B7300;
+}
 /* ==========================================================================
 Animations
 ========================================================================== */
