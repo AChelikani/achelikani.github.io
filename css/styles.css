@@ -145,13 +145,12 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .btn-default:hover {background-color: #5DB3AF; border-color: #5DB3AF; }
 .try-btn { background-color: #f69679; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #e37857; color: #fff; text-decoration: none; }
-.design { padding: 50px 0; background-color: #f6f6f4; position: relative; }
+.design { padding: 50px 0; background-color: #ffffff; position: relative; }
 .flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .colourway { height: 346px; }
 .title { font-size: 15px; color: #9197a8; text-transform: uppercase; font-weight: 600; letter-spacing: 2px; padding: 20px 40px 0; }
 .feature-text { padding: 0px 20px 40px 40px; font-style: italic; color: #7a8387; font-size: 16px; }
-.design-content p { color: #abbcc3; line-height: 30px; font-weight: 300; }
 .controls a { color: #959595; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .controls a:hover, .controls a:focus { color: #555555; }
 .controls .prev { margin-right: 5px; }
@@ -213,6 +212,29 @@ span.tool {
 }
 span.hardware {
 	border-color: #620073;
+}
+
+.design-logo {
+  height: 250px;
+  width: 250px;
+}
+
+.design-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+}
+
+.design-content p {
+  color: #000000;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.design-content p.extra {
+  color: #ffffff;
+  line-height: 150px;
+  font-weight: 400;
 }
 
 /* ==========================================================================
