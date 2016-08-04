@@ -195,6 +195,26 @@ footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
       	font-size: 14px;
         font-weight:bold; }
 
+@media only screen and (max-width: 800px) {
+  .contact {
+    display: none;
+  }
+
+  #cbig {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .contact-small {
+    display: none;
+  }
+
+  #csmall {
+    display: none;
+  }
+}
+
 .tskills > span {
   margin: 0 10px 10px 0;
   padding: 6px 12px;
