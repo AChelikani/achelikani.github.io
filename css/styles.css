@@ -205,15 +205,6 @@ footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
   }
 }
 
-@media only screen and (min-width: 800px) {
-  .contact-small {
-    display: none;
-  }
-
-  #csmall {
-    display: none;
-  }
-}
 
 .tskills > span {
   margin: 0 10px 10px 0;
