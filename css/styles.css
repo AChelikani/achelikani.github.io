@@ -1,5 +1,5 @@
 
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -8,7 +8,7 @@ audio:not([controls]) { display: none; height: 0; }
 
 [hidden] { display: none; }
 
- 
+
 html { font-size: 100%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
 -ms-text-size-adjust: 100%; /* 2 */ }
@@ -17,12 +17,12 @@ html, button, input, select, textarea { font-family: 'Lato', sans-serif; }
 
 body { margin: 0; font-family: 'Lato', sans-serif; }
 
- 
+
 a:focus { outline: thin dotted; }
 
 a:active, a:hover { outline: 0; }
 
- 
+
 h1 { font-size: 2em; margin: 0.67em 0; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
@@ -46,12 +46,12 @@ sub { bottom: -0.25em; }
 menu, ol, ul { padding: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; }
 
- 
+
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 svg:not(:root) { overflow: hidden; }
 
- 
+
 figure { margin: 0; }
 
 form { margin: 0; }
@@ -91,7 +91,7 @@ button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; /* 1 */
 vertical-align: top; /* 2 */ }
 
- 
+
 table { border-collapse: collapse; border-spacing: 0; }
 
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -136,6 +136,8 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
 .testimonials { background: #5b6869 url('../img/skills.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 43px 0; }
 .testimonials p {color: #ffffff; margin: 0px 0 0px 0;}
+.fa-github { color: #ffffff; }
+.project-title { color: #ffffff; }
 .features { background: #fff url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; }
 .features p { color: #7a8387; font-size: 16px; word-spacing: 2px; line-height: 30px; }
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
@@ -145,7 +147,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .btn-default:hover {background-color: #5DB3AF; border-color: #5DB3AF; }
 .try-btn { background-color: #f69679; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #e37857; color: #fff; text-decoration: none; }
-.design { padding: 50px 0; background-color: #ffffff; position: relative; }
+.design { padding: 50px 0; background: #fff url('../img/projectsbg.jpg') no-repeat center -1px; position: relative; }
 .flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .colourway { height: 346px; }
@@ -164,20 +166,20 @@ footer p { color: #fff; line-height: 30px; }
 .footer-credit { font-size: 12px; text-transform: uppercase; letter-spacing: 4px; }
 .element { font-size: 24px; } /* Typed text in header */
 .socialmedia {color: #ffffff;} /* Media links in footer */
-.contact { background: #ffffff; padding-top: 25px; padding-bottom: 25px; }
+.contact { background: #ffffff; padding-top: 25px; padding-bottom: 25px; height: 600px;}
 .skill { color: white; margin-left: 15px; font-size: 20px; font-weight: bolder; font-family: "ruda", 'Open Sans', sans-serif; vertical-align: middle; position: absolute; margin-top: 5px; }
 .bar-right { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: right;}
 .bar-left { width: 45%; border-radius: 5px; height: 35px; margin-top: 50px; margin-bottom: 10px; background-color: #ffffff; float: left;}
 .barfill { border-radius: 5px; height: 100%; background-color: #000000; text-align: left; }
-#consolebar { height: 20px; width: 700px; background-color: #B3B3B3; margin-left: 21em; text-align: center; }
+#consolebar { height: 22px; width: 57.78%; background-color: #B3B3B3; margin-left: 21em; text-align: center; }
 #redcircle { background-color: #FF004C; position: relative; left: 6px; bottom: 17px; width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
 #orangecircle { background-color: #FFC400; position: relative; left: 20px; width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
 #greencircle { background-color: #00FF1E; position: relative; left: 20px;  width: 14px; height: 14px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
 footer a { color: #42817e; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; } 
+footer a:hover, footer a:focus { color: #2f5c5a; text-decoration: none; }
  div.console { font-size: 14px; margin-left: 21em;  word-wrap: break-word; }
       div.console div.jquery-console-inner
-       { width: 700px; height:350px; background:#000000; color: #ffffff; font-size: 12px; padding:0.5em;
+       { width: 75%; height:350px; background:#000000; color: #ffffff; font-size: 12px; padding:0.5em;
          overflow:auto }
       div.console div.jquery-console-prompt-box
        { color:#ffffff; font-family:monospace; }
