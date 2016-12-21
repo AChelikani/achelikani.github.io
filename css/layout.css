@@ -388,7 +388,7 @@ ul#nav li.current a { color: #6A84A7; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -396,13 +396,14 @@ ul#nav li.current a { color: #6A84A7; }
    color: #95A3A3;
 }
 
+
 #initiatives {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #initiatives h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -685,6 +686,13 @@ call-to-action .button {
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+
+.attrib {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -990,4 +998,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #6A84A7; }
