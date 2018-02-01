@@ -376,6 +376,36 @@ ul#nav li.current a { color: #6A84A7; }
   width: 50%;
 }
 
+/*
+ Puzzles
+ */
+
+ #puzzles {
+     background: #fff;
+     padding-top: 90px;
+     padding-bottom: 72px;
+     overflow: hidden;
+ }
+
+ .puzzleheader {
+     padding-left: 200px;
+     color: #000;
+     font-size: 20px;
+ }
+
+ .info {
+
+ }
+
+ .puzzle {
+     padding-left: 200px;
+     float: left;
+     color: #000;
+ }
+
+.solution {
+    float: right;
+}
 
 
 /* ------------------------------------------------------------------ */
