@@ -240,7 +240,7 @@ ul#nav li.current a { color: #6A84A7; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
