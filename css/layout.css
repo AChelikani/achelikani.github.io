@@ -388,7 +388,7 @@ ul#nav li.current a { color: #6A84A7; }
  }
 
  .puzzleheader {
-     padding-left: 200px;
+     padding-left: 20%;
      color: #000;
      font-size: 20px;
  }
@@ -398,7 +398,7 @@ ul#nav li.current a { color: #6A84A7; }
  }
 
  .puzzle {
-     padding-left: 200px;
+     padding-left: 20%;
      float: left;
      color: #000;
  }
