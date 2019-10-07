@@ -18,7 +18,7 @@
     var states = {
         AL: false,
         AK: true,
-        AZ: false,
+        AZ: true,
         AR: false,
         CA: true,
         CO: true,
@@ -87,7 +87,7 @@ for (var i = 0; i < keys.length; i ++) {
 
 // Popilate total visited states.
 var statesHeader = document.getElementById("visited-percentage-states");
-statesHeader.innerHTML = statesVisited + "/" + keys.length + " ";
+statesHeader.innerHTML = statesVisited + "/" + keys.length;
 var statesProgress = document.createElement('progress');
 statesProgress.value = statesVisited;
 statesProgress.max = keys.length;
