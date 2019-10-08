@@ -2,114 +2,27 @@
 
 <head>
     <link rel="stylesheet" href="css/travel.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <button type="button" class="collapsible">United States of America <span id="visited-percentage-states"> Yes </span></button>
+    <button type="button" class="collapsible">United States of America <span id="visited-percentage-states"></span></button>
     <div class="content">
     <div class="states">
         <div class="row" id="states" > </div>
     </div>
     </div>
 
+    <div class="break"></div>
 
-<script>
-    // Populate all states.
-    var states = {
-        AL: false,
-        AK: true,
-        AZ: true,
-        AR: false,
-        CA: true,
-        CO: true,
-        CT: true,
-        DE: false,
-        FL: true,
-        GA: true,
-        HI: true,
-        ID: true,
-        IL: true,
-        IN: true,
-        IA: false,
-        KS: false,
-        KY: false,
-        LA: false,
-        ME: false,
-        MD: true,
-        MA: true,
-        MI: true,
-        MN: false,
-        MS: false,
-        MO: true,
-        MT: true,
-        NE: false,
-        NV: false,
-        NH: false,
-        NJ: true,
-        NM: false,
-        NY: true,
-        NC: false,
-        ND: false,
-        OH: false,
-        OK: false,
-        OR: false,
-        PA: true,
-        RI: false,
-        SC: false,
-        SD: false,
-        TN: false,
-        TX: false,
-        UT: true,
-        VT: false,
-        VA: false,
-        WA: true,
-        WV: false,
-        WI: true,
-        WY: true,
-    };
+    <button type="button" class="collapsible">World<span id="visited-percentage-world"> </span></button>
+    <div class="content">
+        <div class="countries">
+        <div class="row" id="countries"> </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/travel.js"></script>
 
-var statesElement = document.getElementById("states");
-var keys = Object.keys(states);
-var statesVisited = 0;
-for (var i = 0; i < keys.length; i ++) {
-    var filename = "images/SVG/" + keys[i] + ".svg";
-    var newDiv = document.createElement('div');
-    newDiv.className = "column";
-    var newImg = document.createElement('img');
-    newImg.src = filename;
-    if (!states[keys[i]]) {
-        newImg.className = "visited";
-        statesVisited += 1;
-    }
-    newDiv.appendChild(newImg)
-    statesElement.appendChild(newDiv);
-}
-
-// Popilate total visited states.
-var statesHeader = document.getElementById("visited-percentage-states");
-statesHeader.innerHTML = statesVisited + "/" + keys.length;
-var statesProgress = document.createElement('progress');
-statesProgress.value = statesVisited;
-statesProgress.max = keys.length;
-statesHeader.appendChild(statesProgress);
-
-
-// Populate collabsibles.
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
 </body>
 
 </html>

@@ -6,17 +6,29 @@ html {
     background-size: cover;
   }
 
+.break {
+    height: 20px;
+}
+
 .column {
     float: left;
-    width: 25%;
-    padding-bottom: 16px;
+    width: 12.5%;
+    padding-bottom: 24px;
+  }
+
+  .label {
+    font-family: 'Exo 2', sans-serif;
   }
 
   #visited-percentage-states {
       float: right;
   }
 
-  .visited {
+  #visited-percentage-world {
+    float: right;
+}
+
+  .not-visited {
       filter: invert(0.8);
   }
 
@@ -55,7 +67,7 @@ html {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding: 0 18px;
+    padding: 18px 18px 18px 18px;
     display: none;
     overflow: hidden;
     background-color: transparent;
